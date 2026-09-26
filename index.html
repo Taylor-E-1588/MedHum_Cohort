@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medical Humanities · Washington and Lee University</title>
+  <meta name="description" content="Course inventory and planning for the Medical Humanities faculty cohort at Washington and Lee University.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#courses">Skip to courses</a>
+
+  <!-- Shared gradients for the season icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-snow" gradientUnits="userSpaceOnUse" x1="3" y1="3" x2="21" y2="21">
+        <stop offset="0" stop-color="#3f74a8"/>
+        <stop offset=".45" stop-color="#9fbcd8"/>
+        <stop offset=".6" stop-color="#c9d7e4"/>
+        <stop offset="1" stop-color="#5486b5"/>
+      </linearGradient>
+      <linearGradient id="g-leaf" gradientUnits="userSpaceOnUse" x1="12" y1="2" x2="12" y2="21">
+        <stop offset="0" stop-color="#f7b718"/>
+        <stop offset=".5" stop-color="#f26a2e"/>
+        <stop offset="1" stop-color="#c8322a"/>
+      </linearGradient>
+      <linearGradient id="g-tulip" gradientUnits="userSpaceOnUse" x1="12" y1="4" x2="12" y2="14.5">
+        <stop offset="0" stop-color="#ff9cc0"/>
+        <stop offset="1" stop-color="#e2407a"/>
+      </linearGradient>
+      <linearGradient id="g-tulip-back" gradientUnits="userSpaceOnUse" x1="12" y1="2.5" x2="12" y2="14">
+        <stop offset="0" stop-color="#f7719f"/>
+        <stop offset="1" stop-color="#c32d5f"/>
+      </linearGradient>
+      <linearGradient id="g-stem" gradientUnits="userSpaceOnUse" x1="7" y1="14" x2="13" y2="22">
+        <stop offset="0" stop-color="#7cc47f"/>
+        <stop offset="1" stop-color="#3f8a4d"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <a class="wordmark" href="#top">Washington and Lee University</a>
+    <nav aria-label="Sections">
+      <a href="#courses">Courses</a>
+      <a href="#proposal">Proposal</a>
+      <a href="#cohort" id="nav-cohort" hidden>Cohort</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-text">
+        <p class="kicker">Faculty cohort</p>
+        <h1 id="page-title">Medical <em>Humanities</em></h1>
+        <dl class="hero-stats" id="stats"></dl>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+          <!-- row 1 -->
+          <rect x="0" y="0" width="133.33" height="133.33" fill="var(--blue)"/>
+          <circle cx="66.67" cy="66.67" r="44" fill="var(--sun)"/>
+          <rect x="133.33" y="0" width="133.33" height="133.33" fill="var(--pink)"/>
+          <path d="M133.33 133.33 A133.33 133.33 0 0 1 266.67 0 L266.67 133.33 Z" fill="var(--red)"/>
+          <rect x="266.67" y="0" width="133.33" height="133.33" fill="var(--ink)"/>
+          <g fill="var(--sky)"><circle cx="300" cy="33" r="9"/><circle cx="333" cy="33" r="9"/><circle cx="366" cy="33" r="9"/><circle cx="300" cy="66" r="9"/><circle cx="333" cy="66" r="9"/><circle cx="366" cy="66" r="9"/><circle cx="300" cy="99" r="9"/><circle cx="333" cy="99" r="9"/><circle cx="366" cy="99" r="9"/></g>
+          <!-- row 2 -->
+          <rect x="0" y="133.33" width="133.33" height="133.33" fill="var(--red)"/>
+          <path d="M0 266.67 A133.33 133.33 0 0 1 133.33 133.33 L133.33 266.67 Z" fill="var(--orange)"/>
+          <rect x="133.33" y="133.33" width="133.33" height="133.33" fill="var(--sun)"/>
+          <path d="M150 200 h100" stroke="var(--ink)" stroke-width="14" stroke-linecap="round"/>
+          <path d="M150 235 h70" stroke="var(--ink)" stroke-width="14" stroke-linecap="round"/>
+          <path d="M150 165 h85" stroke="var(--ink)" stroke-width="14" stroke-linecap="round"/>
+          <rect x="266.67" y="133.33" width="133.33" height="133.33" fill="var(--blue)"/>
+          <path d="M266.67 200 A66.67 66.67 0 0 0 400 200 Z" fill="var(--pink)"/>
+          <!-- row 3 -->
+          <rect x="0" y="266.67" width="133.33" height="133.33" fill="var(--sky)"/>
+          <path d="M66.67 300 C 30 270, 5 320, 66.67 372 C 128 320, 103 270, 66.67 300 Z" fill="var(--red)"/>
+          <rect x="133.33" y="266.67" width="133.33" height="133.33" fill="var(--ink)"/>
+          <circle cx="200" cy="333.33" r="50" fill="none" stroke="var(--sun)" stroke-width="14"/>
+          <rect x="266.67" y="266.67" width="133.33" height="133.33" fill="var(--pink)"/>
+          <path d="M266.67 266.67 L400 266.67 L266.67 400 Z" fill="var(--blue)"/>
+        </svg>
+      </div>
+    </section>
+
+    <section id="courses" class="courses" aria-labelledby="courses-title">
+      <div class="section-head">
+        <h2 id="courses-title">Courses</h2>
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span class="visually-hidden">Find a course, instructor, department, or number</span>
+          <input id="search" type="search" placeholder="Find a course or instructor" autocomplete="off">
+        </label>
+      </div>
+      <ul class="legend" aria-label="Key">
+        <li><span class="swatch lead"></span>Gray: suggested by others; the instructor hasn’t asked for it to count toward the minor</li>
+      </ul>
+
+      <div class="explorer">
+        <aside class="filter-panel" aria-labelledby="filters-title">
+          <details class="filters-wrap" id="filters-wrap" open>
+            <summary id="filters-title">Filter &amp; map coverage</summary>
+            <p class="filters-help">Each bar counts matching courses. <span class="k-conf"></span> requested by instructor <span class="k-lead"></span> suggested <span class="k-shared k-inline"></span> lighter: also counted under another option</p>
+            <div id="filters"></div>
+          </details>
+        </aside>
+
+        <div class="results">
+          <div class="toolbar">
+            <p id="result-count" class="result-count" aria-live="polite"></p>
+            <div class="tools">
+              <div class="views" role="group" aria-label="View">
+                <button type="button" class="view-btn" data-view="cards" aria-pressed="true">Cards</button>
+                <button type="button" class="view-btn" data-view="grid" aria-pressed="false">Grid</button>
+              </div>
+              <button type="button" class="download" id="download">Download CSV</button>
+            </div>
+          </div>
+          <div id="active" class="active"></div>
+          <div id="course-list" class="course-list"></div>
+          <p id="empty" class="empty" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proposal" class="proposal" aria-labelledby="proposal-title">
+      <div class="section-head">
+        <h2 id="proposal-title">Toward a minor proposal</h2>
+        <a class="section-link" href="plan.html">The plan in detail <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="gantt-wrap">
+        <div class="gantt" id="gantt" role="table" aria-label="Minor proposal calendar, September through May">
+          <div class="g-corner" style="grid-row:1 / 3"></div>
+          <div class="g-term fall" style="grid-column:2 / 6">Fall</div>
+          <div class="g-term winter" style="grid-column:6 / 10">Winter</div>
+          <div class="g-term spring" style="grid-column:10 / 11">Spring</div>
+          <div class="g-month" style="grid-column:2">Sep</div>
+          <div class="g-month" style="grid-column:3">Oct</div>
+          <div class="g-month" style="grid-column:4">Nov</div>
+          <div class="g-month" style="grid-column:5">Dec</div>
+          <div class="g-month" style="grid-column:6">Jan</div>
+          <div class="g-month" style="grid-column:7">Feb</div>
+          <div class="g-month" style="grid-column:8">Mar</div>
+          <div class="g-month" style="grid-column:9">Apr</div>
+          <div class="g-month" style="grid-column:10">May</div>
+          <div class="g-col" style="grid-column:2; grid-row:3 / 11"></div>
+          <div class="g-col alt" style="grid-column:3; grid-row:3 / 11"></div>
+          <div class="g-col" style="grid-column:4; grid-row:3 / 11"></div>
+          <div class="g-col alt" style="grid-column:5; grid-row:3 / 11"></div>
+          <div class="g-col" style="grid-column:6; grid-row:3 / 11"></div>
+          <div class="g-col alt" style="grid-column:7; grid-row:3 / 11"></div>
+          <div class="g-col" style="grid-column:8; grid-row:3 / 11"></div>
+          <div class="g-col alt" style="grid-column:9; grid-row:3 / 11"></div>
+          <div class="g-col" style="grid-column:10; grid-row:3 / 11"></div>
+          <div class="g-label" style="grid-row:3">
+            <h3><span class="g-num">1</span><a href="plan.html#step-1">Agree on the endpoint</a></h3>
+          </div>
+          <div class="g-bar c-blue" style="grid-row:3; grid-column:2 / 3"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: Agreed calendar and draft assembly lead"><span class="diamond"></span></span></div>
+          <div class="g-label" style="grid-row:4">
+            <h3><span class="g-num">2</span><a href="plan.html#step-2">Establish the foundation</a></h3>
+          </div>
+          <div class="g-bar c-red" style="grid-row:4; grid-column:3 / 4"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: Scope agreed; working inventory, draft outcomes, requirements checklist"><span class="diamond"></span></span></div>
+          <div class="g-label" style="grid-row:5">
+            <h3><span class="g-num">3</span><a href="plan.html#step-3">Set the curriculum</a></h3>
+          </div>
+          <div class="g-bar c-sun" style="grid-row:5; grid-column:4 / 6"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: Provisional curriculum and list of gaps"><span class="diamond"></span></span></div>
+          <div class="g-label" style="grid-row:6">
+            <h3><span class="g-num">4</span><a href="plan.html#step-4">Draft the sections</a></h3>
+          </div>
+          <div class="g-bar c-pink" style="grid-row:6; grid-column:6 / 8"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: All sections drafted, unresolved questions listed"><span class="diamond"></span></span></div>
+          <div class="g-label" style="grid-row:7">
+            <h3><span class="g-num">5</span><a href="plan.html#step-5">Assemble and review</a></h3>
+          </div>
+          <div class="g-bar c-sky" style="grid-row:7; grid-column:8 / 9"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: Complete draft and short revision list"><span class="diamond"></span></span></div>
+          <div class="g-label" style="grid-row:8">
+            <h3><span class="g-num">6</span><a href="plan.html#step-6">Revise and hand off</a></h3>
+          </div>
+          <div class="g-bar c-ink" style="grid-row:8; grid-column:9 / 10"><span class="tip g-mile" tabindex="0" data-tip="Benchmark: Cohort-reviewed draft ready for the next approval stage"><span class="diamond"></span></span></div>
+          <div class="g-bar g-buffer" style="grid-row:8; grid-column:10 / 11"><span>buffer</span></div>
+          <div class="g-label g-ongoing" style="grid-row:9">
+            <h3><span class="g-num g-ic"><i class="ti ti-rocket" aria-hidden="true"></i></span><a href="plan.html#pilots">Pilot check-ins</a></h3>
+          </div>
+          <div class="g-bar c-pilot" style="grid-row:9; grid-column:2 / 11"></div>
+          <div class="g-label g-ongoing" style="grid-row:10">
+            <h3><span class="g-num g-ic"><i class="ti ti-microphone" aria-hidden="true"></i></span><a href="plan.html#speaker">Guest speaker</a></h3>
+          </div>
+          <div class="g-bar c-speaker" style="grid-row:10; grid-column:6 / 10"></div>
+          <div class="g-today" id="g-today" hidden><span>Today</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="cohort" class="cohort" aria-labelledby="cohort-title" hidden>
+      <div class="section-head">
+        <h2 id="cohort-title">Cohort</h2>
+      </div>
+      <div class="cohort-links">
+        <a class="cohort-card c-blue" id="link-meetings" href="#" target="_blank" rel="noopener" hidden>
+          <span class="cc-ic"><i class="ti ti-messages" aria-hidden="true"></i></span>
+          <span class="cc-text"><strong>Meeting notes and discussion</strong><span>What we did at each meeting, what&rsquo;s coming up, and a running conversation for the cohort. Opens in Box; sign in with your W&amp;L account.</span></span>
+          <i class="ti ti-external-link cc-go" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="foot-title">Medical Humanities</span>
+    <p>Washington and Lee University</p>
+  </footer>
+
+  <script src="links.js"></script>
+  <script src="courses.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
