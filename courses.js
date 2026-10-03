@@ -102,7 +102,7 @@ window.COURSES = [
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2489737146882",
     "credits": 3
   },
   {
@@ -113,6 +113,7 @@ window.COURSES = [
     "numberNote": "Catalog title: Conceptions of Race and Health: Black & White=Gray",
     "faculty": "Lynny Chin",
     "department": "Sociology and Anthropology",
+    "program": "Africana Studies",
     "commitment": "confirmed",
     "description": "Examines concepts of race, racialized histories of unequal medical treatment, health disparities, and the use of race in diagnosis and treatment.",
     "term": "Fall",
@@ -123,7 +124,7 @@ window.COURSES = [
       "Cultures and Contexts",
       "Historical Perspectives"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2489740854720",
     "credits": 3
   },
   {
@@ -134,12 +135,13 @@ window.COURSES = [
     "department": "Sociology and Anthropology",
     "commitment": "confirmed",
     "description": "Examines cultural constructions of health and illness, social determinants, healthcare systems, medical authority, competing systems of knowledge, and access to care across populations and societies.",
+    "term": "Spring 2027",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2489733405210",
     "credits": 3
   },
   {
@@ -164,7 +166,7 @@ window.COURSES = [
   {
     "id": "pregnancy-childbirth-health",
     "title": "Pregnancy, Childbirth, and Health",
-    "number": "WGSS 2xxx",
+    "number": "WGSS 2905",
     "previousTitle": "Reproductive Justice: Beyond Abortion",
     "formerNumber": "WGSS 296A",
     "faculty": "Wenqi Yang",
@@ -181,7 +183,7 @@ window.COURSES = [
       "Signature Experience",
       "Cultures and Contexts"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2491221603698",
     "cbl": true
   },
   {
@@ -192,14 +194,15 @@ window.COURSES = [
     "faculty": "Wenqi Yang",
     "program": "Women’s, Gender, and Sexuality Studies",
     "commitment": "confirmed",
-    "description": "Addresses sexual assault and intervention.",
+    "description": "Examines sexual violence and how survivors encounter medical, legal, and community support systems, and how power and inequality shape access to care. A partnership with Project Horizon puts these ideas into practice through trauma-informed campus messaging that emphasizes survivor agency, accessibility, and prevention.",
     "term": "Most recently taught Spring 2026",
     "frequency": "Every other year",
     "capacity": "15",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [],
-    "syllabus": null
+    "syllabus": "https://wlu.app.box.com/file/2491222760425",
+    "cbl": true
   },
   {
     "id": "medicine-popular-culture",
@@ -249,8 +252,9 @@ window.COURSES = [
       "Additional Writing Intensive",
       "Signature Experience"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/1193572181763",
     "number": "ENGL 2003",
+    "formerNumber": "ENGL 203",
     "capacity": "Typically 15",
     "cbl": true
   },
@@ -298,7 +302,7 @@ window.COURSES = [
     "fys": false,
     "mode": "Ethical Reasoning",
     "integrations": [],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2487591762258",
     "term": "Fall 2026",
     "frequency": "Every year"
   },
@@ -316,7 +320,9 @@ window.COURSES = [
     "mode": "Ethical Reasoning",
     "integrations": [],
     "syllabus": null,
-    "credits": 3
+    "credits": 3,
+    "frequency": "Every year",
+    "term": "Spring 2027"
   },
   {
     "id": "health-social-science-exploration",
@@ -361,7 +367,7 @@ window.COURSES = [
     "integrations": [
       "Additional Writing Intensive"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2487585813514",
     "frequency": "Every other winter"
   },
   {
@@ -442,7 +448,7 @@ window.COURSES = [
       "Cultures and Contexts",
       "Signature Experience"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2487616531124",
     "term": "Fall 2026",
     "pilot": "Fall 2026 pre-pilot",
     "cbl": true
@@ -451,22 +457,25 @@ window.COURSES = [
     "id": "history-of-medicine",
     "title": "Introduction to the History of Medicine",
     "number": "HIST 2905",
+    "formerNumber": "HIST 295M",
     "faculty": "Leticia Fernández-Fontecha",
     "department": "History",
     "commitment": "confirmed",
-    "description": "A foundational history of disease, pain, medical knowledge, and healing, covering colonialism, the Cold War, patients and practitioners, inequality, self-care, and alternative medicine.",
+    "description": "A foundational history of Western medicine, exploring disease, pain, medical knowledge, and healing, with attention to patients and practitioners, changing theories and treatments, and debates about empathy, authority, and inequality.",
     "fys": false,
     "mode": "Humanistic Inquiry and Analysis",
     "integrations": [
       "Historical Perspectives"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2491714263806",
     "term": "Winter 2027 next",
-    "frequency": "Every year, two full sections"
+    "frequency": "Every year, two sections; one section in Winter 2027",
+    "capacity": "19",
+    "credits": 3
   },
   {
     "id": "intro-medical-humanities",
-    "title": "Introduction to Medical Humanities",
+    "title": "Telling Illness: Introduction to the Medical Humanities",
     "number": "HIST xxxx",
     "faculty": "Leticia Fernández-Fontecha",
     "department": "History",
@@ -477,13 +486,13 @@ window.COURSES = [
     "integrations": [
       "Additional Writing Intensive"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2491737779156",
     "previousTitle": "Working title",
     "term": "Spring 2027"
   },
   {
     "id": "mind-madness-self",
-    "title": "Mind, Madness, and the Self",
+    "title": "Mind, Madness, and the Self: A History of Psychology and Psychiatry",
     "number": "HIST 3xxx",
     "faculty": "Leticia Fernández-Fontecha",
     "department": "History",
@@ -496,6 +505,6 @@ window.COURSES = [
       "Additional Writing Intensive"
     ],
     "syllabus": null,
-    "previousTitle": "Working title; also considered: Being Human"
+    "previousTitle": "Working title; also considered: Self, Mind, and Madness from the Renaissance to Prozac"
   }
 ];

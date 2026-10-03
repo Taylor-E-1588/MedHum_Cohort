@@ -244,7 +244,7 @@
     const lead = c.commitment === "lead";
     const tag = c.number ? `<span class="num">${esc(c.number)}</span>` : "";
     const r = rhythm(c);
-    const syl = c.syllabus ? `<a class="syl" href="${esc(c.syllabus)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true">${icons.doc}</svg>Syllabus</a>` : "";
+    const syl = c.syllabus ? `<a class="syl" href="${esc(c.syllabus)}" target="_blank" rel="noopener" title="Opens in Box; sign in with your W&amp;L account"><svg viewBox="0 0 24 24" aria-hidden="true">${icons.doc}</svg>Syllabus</a>` : "";
     return `
       <details class="course${lead ? " lead" : ""}" id="${esc(c.id)}">
         <summary>
