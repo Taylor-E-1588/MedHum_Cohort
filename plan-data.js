@@ -136,7 +136,7 @@ window.PLAN = [
           "The minor isn't bound by Gen Ed rules, so its outcomes can be more ambitious than a Path's. They still need to be assessable, since the proposal will need an assessment plan. Published sets of medical humanities outcomes are a useful starting point, though outcomes such as empathy or counseling skills are hard to assess (Hausman et al., 2023)."
         ],
         "decide": [
-          "Draft four to six learning outcomes"
+          "Draft three to five learning outcomes"
         ]
       },
       {
@@ -156,10 +156,10 @@ window.PLAN = [
         "q": "How will the work be organized?",
         "body": [
           "Monthly meetings aren't enough time to draft a proposal. Ad hoc teams will work between meetings: each team has one concrete task, a named lead, and a return date, and dissolves when the task is done.",
-          "The same model carries into drafting. In January and February, teams write the proposal's sections (the rationale and outcomes; the curriculum; and administration, resources, and assessment) from one shared outline, based on the required proposal sections, so the pieces fit together without rewriting. When possible, they work at the same time rather than waiting on one another."
+          "The same model carries into drafting. In January and February, teams write the proposal's sections (the rationale and outcomes; the curriculum; and administration, resources, and assessment) from one shared outline, based on the required proposal sections, so the pieces fit together without rewriting. When possible, they work at the same time rather than waiting on one another.",
+          "October's committees are underway: requirements and precedents, course criteria, rationale and outcomes, student interest, and outreach to the suggested courses. Each checks in at the October meeting and finishes its draft by the November meeting."
         ],
         "decide": [
-          "Form October's teams: course map, requirements, rationale and outcomes",
           "Agree on the drafting outline and teams"
         ]
       },

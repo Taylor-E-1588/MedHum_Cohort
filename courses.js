@@ -341,10 +341,10 @@ window.COURSES = [
     "id": "spanish-healthcare-professionals",
     "title": "Spanish for Healthcare Professionals",
     "number": "SPAN 2005",
-    "faculty": "Instructor to identify",
+    "faculty": "No instructor assigned",
     "department": "Romance Languages",
     "commitment": "lead",
-    "description": "Spanish language study for healthcare contexts.",
+    "description": "Spanish language study for healthcare contexts. The course is in the catalog but not currently scheduled.",
     "fys": false,
     "mode": "Intercultural Communication",
     "integrations": [
