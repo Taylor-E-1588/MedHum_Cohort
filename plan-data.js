@@ -11,7 +11,7 @@ window.PLAN = [
     "cls": "c-blue",
     "when": "September",
     "title": "Agree on the endpoint",
-    "bench": "Agreed calendar and draft assembly lead",
+    "bench": "Agreed calendar and proposal requirements; shared tools in place",
     "questions": [
       {
         "slug": "deliverable",
@@ -19,44 +19,25 @@ window.PLAN = [
         "body": [
           "The cohort's deliverable this year is a cohort-reviewed draft of the minor proposal, finished in April. May is a buffer month and the last month of the grant period.",
           "Formal submission through W&L's curriculum approval process happens in the following academic year, after further refinement. This year's work is about getting the substance right: the scope of the minor, its curriculum, and its rationale. A careful foundation now saves rework later, because early decisions shape everything that follows.",
-          "Working backward from April sets the rest of the calendar: sections drafted by the end of February, a curriculum by the end of December, and the foundation by the end of October."
-        ],
-        "decide": [
-          "Confirm April as the target for the cohort-reviewed draft",
-          "Agree on the monthly benchmarks in this calendar"
+          "Working backward from April sets the rest of the calendar: sections drafted by the end of February, a curriculum by the end of December, and the foundation by the end of October.",
+          "The cohort agreed on April as the target and on the monthly benchmarks in this calendar at its September meeting."
         ]
       },
       {
         "slug": "approval",
         "q": "What does a minor proposal need to include, and who approves it?",
         "body": [
-          "The proposal form from C&D, the Provost's office, and the Faculty Handbook set the sections the cohort needs to write."
+          "C&D's guidelines for creating a minor list seven sections: background and rationale; an assurance of learning plan with 3 to 5 student learning outcomes and how they'll be assessed; courses, by level, with how often each is offered; a capstone, if any; personnel; a five-year schedule; and resources. Affected departments are consulted and can send letters of support or dissent.",
+          "The proposal goes to C&D, then to the full faculty. To appear in the next year's catalog, it must reach C&D by the first Tuesday of Winter Term. The October requirements and precedents committee is confirming these details and the rules for minors."
         ],
-        "decide": [
-          "Obtain the proposal form or guidelines",
-          "Establish benchmarks"
-        ]
+        "see": {"label": "C&D guidelines for creating a minor", "href": "https://www.wlu.edu/university-registrar/policies-and-procedures/petitioning-faculty-committees/courses-and-degrees-committee/candd-guidelines-for-creating-or-altering-a-major-or-minor"}
       },
       {
-        "slug": "precedents",
-        "q": "What can we learn from minors W&L has already approved?",
+        "slug": "tools",
+        "q": "Where does the cohort's work happen?",
         "body": [
-          "A recently approved minor proposal is the most useful single document the cohort can have. It shows the expected length, the kind of evidence reviewers want, and the tone that works.",
-          "Catalog entries for comparable interdisciplinary minors, such as Poverty and Human Capability Studies or Environmental Studies, show how credits, required courses, electives, and capstones are usually arranged at W&L. A proposal that was withdrawn or didn't pass, and the reasons why, is equally informative."
-        ],
-        "decide": [
-          "Collect approved proposal(s) and two or three catalog entries for comparison"
-        ]
-      },
-      {
-        "slug": "assembly",
-        "q": "Who assembles the draft?",
-        "body": [
-          "Sections will be drafted by different people in January and February. Someone needs to own the whole document: keeping the outline, checking that sections agree with each other, and producing one draft with a consistent voice in March.",
-          "Naming this person or small group now means drafting teams know whom to send work to and who resolves conflicts between sections."
-        ],
-        "decide": [
-          "Name the draft assembly lead or editorial team"
+          "This website holds the plan and the course inventory. Instructors update their course details in the shared course grid in Box, and syllabi go in the Course Syllabi folder there. The website is updated from the grid.",
+          "Discussion, meeting notes, and each committee's working files live on the cohort's Canvas site."
         ]
       }
     ]
@@ -111,7 +92,8 @@ window.PLAN = [
         "q": "What does W&L require of a new minor?",
         "body": [
           "Institutional rules shape the design before the cohort makes any choices of its own. The key questions are the minimum and maximum credits for a minor, how many courses can overlap with a student's major or other minors, and whether an interdisciplinary minor needs a sponsoring department, a named director, or dedicated teaching.",
-          "Cross-listing also needs attention: whether a department must consent for its course to count toward another program, and whose signature it requires."
+          "Cross-listing also needs attention: whether a department must consent for its course to count toward another program, and whose signature it requires.",
+          "Precedents help too: a recently approved minor proposal, and catalog entries for comparable interdisciplinary minors such as Poverty and Human Capability Studies or Environmental Studies, show how W&L minors are usually arranged."
         ],
         "decide": [
           "Build a checklist of institutional requirements for minors"
@@ -290,7 +272,7 @@ window.PLAN = [
         "slug": "review",
         "q": "Who reviews the draft, and how?",
         "body": [
-          "The editorial team combines the sections into one document with a consistent voice. The full cohort then reads the complete draft and resolves the open questions from the drafting stage.",
+          "The sections are combined into one document with a consistent voice. The full cohort then reads the complete draft and resolves the open questions from the drafting stage.",
           "Before the draft is final, share it with the departments whose courses are included and with the administrators involved in approval. Their feedback finds problems while there is still time to fix them."
         ],
         "decide": [
