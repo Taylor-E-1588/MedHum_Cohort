@@ -249,6 +249,17 @@ window.PLAN = [
     "bench": "All sections drafted, unresolved questions listed",
     "questions": [
       {
+        "slug": "assembly",
+        "q": "Who assembles the draft?",
+        "body": [
+          "Sections will be drafted by different people in January and February. Someone needs to own the whole document: keeping the outline, checking that sections agree with each other, and producing one draft with a consistent voice in March.",
+          "Naming this person or small group as drafting begins means drafting teams know whom to send work to and who resolves conflicts between sections."
+        ],
+        "decide": [
+          "Name the draft assembly lead or editorial team"
+        ]
+      },
+      {
         "slug": "open-questions",
         "q": "What happens to questions a team can't resolve?",
         "body": [
@@ -272,7 +283,7 @@ window.PLAN = [
         "slug": "review",
         "q": "Who reviews the draft, and how?",
         "body": [
-          "The sections are combined into one document with a consistent voice. The full cohort then reads the complete draft and resolves the open questions from the drafting stage.",
+          "The editorial team combines the sections into one document with a consistent voice. The full cohort then reads the complete draft and resolves the open questions from the drafting stage.",
           "Before the draft is final, share it with the departments whose courses are included and with the administrators involved in approval. Their feedback finds problems while there is still time to fix them."
         ],
         "decide": [

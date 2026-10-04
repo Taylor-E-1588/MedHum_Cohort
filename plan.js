@@ -22,7 +22,7 @@
 
   // Single question page
   if ($("question")) {
-    const moved = { criteria: "scope", drafting: "teams", precedents: "requirements", assembly: "teams" }; // questions merged into another page
+    const moved = { criteria: "scope", drafting: "teams", precedents: "requirements" }; // questions merged into another page
     const raw = new URLSearchParams(location.search).get("q");
     const slug = moved[raw] || raw;
     const i = all.findIndex(q => q.slug === slug);
