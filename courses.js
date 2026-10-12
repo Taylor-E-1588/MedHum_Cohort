@@ -476,7 +476,7 @@ window.COURSES = [
   {
     "id": "intro-medical-humanities",
     "title": "Telling Illness: Introduction to the Medical Humanities",
-    "number": "HIST xxxx",
+    "number": "INTR 2905",
     "faculty": "Leticia Fernández-Fontecha",
     "department": "History",
     "commitment": "confirmed",
@@ -487,24 +487,27 @@ window.COURSES = [
       "Additional Writing Intensive"
     ],
     "syllabus": "https://wlu.app.box.com/file/2491737779156",
-    "previousTitle": "Working title",
-    "term": "Spring 2027"
+    "term": "Spring 2027",
+    "frequency": "Every one to two years",
+    "capacity": "15",
+    "credits": 3
   },
   {
     "id": "mind-madness-self",
-    "title": "Mind, Madness, and the Self: A History of Psychology and Psychiatry",
+    "title": "Being Human: Self, Mind, and Madness from the Renaissance to Prozac",
     "number": "HIST 3xxx",
     "faculty": "Leticia Fernández-Fontecha",
     "department": "History",
     "commitment": "confirmed",
-    "description": "An advanced seminar on the history of psychology and psychiatry: mind-body relations, madness and normality, diagnosis and treatment, patient experience, the senses and emotions, embodiment, and selfhood.",
+    "description": "An advanced seminar on the history of the human mind and madness in philosophy, medicine, psychology, and psychiatry: mind-body relations, diagnosis and treatment, patient experience, the senses and emotions, selfhood, and who has counted as fully human.",
     "fys": false,
     "mode": "Humanistic Inquiry and Analysis",
     "integrations": [
-      "Historical Perspectives",
-      "Additional Writing Intensive"
+      "Historical Perspectives"
     ],
     "syllabus": null,
-    "previousTitle": "Working title; also considered: Self, Mind, and Madness from the Renaissance to Prozac"
+    "frequency": "Every other year",
+    "capacity": "14",
+    "credits": 3
   }
 ];
