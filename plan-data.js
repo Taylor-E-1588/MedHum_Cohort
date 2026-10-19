@@ -48,7 +48,7 @@ window.PLAN = [
     "cls": "c-red",
     "when": "October",
     "title": "Establish the foundation",
-    "bench": "Scope agreed; working inventory, draft outcomes, requirements checklist",
+    "bench": "Working inventory, draft course criteria, draft outcomes, requirements checklist",
     "questions": [
       {
         "slug": "scope",
@@ -164,7 +164,7 @@ window.PLAN = [
     "cls": "c-sun",
     "when": "November–December",
     "title": "Set the curriculum",
-    "bench": "Provisional curriculum and list of gaps",
+    "bench": "Scope agreed; provisional curriculum and list of gaps",
     "questions": [
       {
         "slug": "size",
