@@ -344,7 +344,7 @@ window.COURSES = [
     "faculty": "No instructor assigned",
     "department": "Romance Languages",
     "commitment": "lead",
-    "description": "Spanish language study for healthcare contexts. The course is in the catalog but not currently scheduled.",
+    "description": "Spanish language study for healthcare contexts. A Spanish faculty member plans to offer it about every two to three years.",
     "fys": false,
     "mode": "Intercultural Communication",
     "integrations": [
@@ -359,14 +359,11 @@ window.COURSES = [
     "formerNumber": "JOUR 331",
     "faculty": "Jared Macary",
     "department": "Journalism and Mass Communications",
-    "commitment": "lead",
+    "commitment": "confirmed",
     "description": "Writing and presenting about health and environmental topics across several health areas.",
     "term": "Winter; taught Winter 2025 and Winter 2027",
     "fys": false,
-    "mode": "Creative Making",
-    "integrations": [
-      "Additional Writing Intensive"
-    ],
+    "integrations": [],
     "syllabus": "https://wlu.app.box.com/file/2487585813514",
     "frequency": "Every other winter"
   },
@@ -376,15 +373,16 @@ window.COURSES = [
     "number": "SOAN 2542",
     "faculty": "Alison Bell",
     "department": "Sociology and Anthropology",
-    "commitment": "lead",
+    "commitment": "confirmed",
     "description": "Cultural understandings and practices surrounding death and dying.",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null,
-    "credits": 3
+    "syllabus": "https://wlu.app.box.com/file/2526476571619",
+    "credits": 3,
+    "term": "Fall 2026"
   },
   {
     "id": "anthropology-disability",
@@ -392,14 +390,14 @@ window.COURSES = [
     "number": "SOAN 2540",
     "faculty": "Alison Bell",
     "department": "Sociology and Anthropology",
-    "commitment": "lead",
+    "commitment": "confirmed",
     "description": "Disability examined through anthropological perspectives and cultural contexts.",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null,
+    "syllabus": "https://wlu.app.box.com/file/2526472833034",
     "credits": 3
   },
   {
@@ -408,30 +406,16 @@ window.COURSES = [
     "number": "SOAN xxxx",
     "faculty": "John Cataldi",
     "department": "Sociology and Anthropology",
-    "commitment": "lead",
+    "commitment": "confirmed",
     "description": "A new course on aging that connects social structures and lived experience with health, care, disability, and the life course.",
     "term": "Winter",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [],
-    "syllabus": null,
-    "credits": 3
-  },
-  {
-    "id": "us-social-policy",
-    "title": "U.S. Social Policy",
-    "number": "SOAN 2905",
-    "numberNote": "Offered as Special Topics in Sociology (section 01)",
-    "faculty": "Adrienne Jones",
-    "department": "Sociology and Anthropology",
-    "program": "Law, Justice, and Society",
-    "commitment": "lead",
-    "description": "An applied social-policy course touching on health through policy, fines and fees, poverty, and the institutional structures that shape well-being.",
-    "fys": false,
-    "mode": "Social Scientific Inquiry and Analysis",
-    "integrations": [],
-    "syllabus": null,
-    "credits": 3
+    "syllabus": "https://wlu.app.box.com/file/2526465028234",
+    "credits": 3,
+    "frequency": "Every year",
+    "formerNumber": "SOAN 290"
   },
   {
     "id": "deconstructing-disability",
@@ -488,7 +472,7 @@ window.COURSES = [
     ],
     "syllabus": "https://wlu.app.box.com/file/2491737779156",
     "term": "Spring 2027",
-    "frequency": "Every one to two years",
+    "frequency": "Every year",
     "capacity": "15",
     "credits": 3
   },
