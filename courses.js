@@ -342,16 +342,17 @@ window.COURSES = [
     "id": "spanish-healthcare-professionals",
     "title": "Spanish for Healthcare Professionals",
     "number": "SPAN 2005",
-    "faculty": "No instructor assigned",
+    "faculty": "Instructor TBD",
     "department": "Romance Languages",
     "commitment": "lead",
-    "description": "Spanish language study for healthcare contexts. A Spanish faculty member plans to offer it about every two to three years.",
+    "description": "Spanish language study for healthcare contexts.",
     "fys": false,
     "mode": "Intercultural Communication",
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null
+    "syllabus": null,
+    "frequency": "Every 2-3 years"
   },
   {
     "id": "health-environmental-communication",
