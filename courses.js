@@ -151,7 +151,7 @@ window.COURSES = [
     "faculty": "Michelle Cowan",
     "department": "Business Administration",
     "commitment": "confirmed",
-    "description": "Students analyze and produce wellness-industry messaging on topics such as eating-disorder recovery, addiction, and treatment programs. In a client-based community project, students critique and create health messaging, journal, and reflect on their place in the wellness industry.",
+    "description": "Students analyze and produce wellness-industry messaging on topics such as eating-disorder recovery, addiction, and treatment programs. Students work with community partners to create a local wellness guide, which will live online. Students determine the focus of the guide and practice interfacing with business owners, designing web experiences, and writing/creating promotional media. Students also reflect on their place in the wellness industry and bring together their personal and community experiences in a final portfolio and critique session.",
     "term": "Spring 2028",
     "frequency": "Every other year",
     "capacity": "10–15",
@@ -160,8 +160,9 @@ window.COURSES = [
     "integrations": [
       "Signature Experience"
     ],
-    "syllabus": null,
-    "cbl": true
+    "syllabus": "https://wlu.app.box.com/file/2553530656419",
+    "cbl": true,
+    "credits": 3
   },
   {
     "id": "pregnancy-childbirth-health",
