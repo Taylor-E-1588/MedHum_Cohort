@@ -239,6 +239,22 @@ window.COURSES = [
     "syllabus": null
   },
   {
+    "id": "health-care-compassion-stage-screen",
+    "title": "Health, Care, & Compassion on Stage & Screen",
+    "number": "ENGL 2605",
+    "faculty": "Holly Pickett",
+    "department": "English",
+    "commitment": "confirmed",
+    "description": "Analyzes how drama, film, and television portray health and illness across time periods, from King Lear and Wit to Angels in America and CODA. Using the WHO’s definition of health as complete physical, mental, and social wellbeing, students ask whether dramatic depictions can build empathy for those who are ill and prompt better care for themselves and others.",
+    "term": "Winter 2028",
+    "fys": false,
+    "mode": "Humanistic Inquiry and Analysis",
+    "integrations": [
+      "Cultures and Contexts"
+    ],
+    "syllabus": null
+  },
+  {
     "id": "creative-writing-death-dying",
     "title": "Introduction to Fiction Writing: Death and Dying",
     "previousTitle": "Creative Writing on Death and Dying (working title)",
