@@ -252,7 +252,7 @@ window.COURSES = [
     "integrations": [
       "Cultures and Contexts"
     ],
-    "syllabus": null
+    "syllabus": "https://wlu.app.box.com/file/2570922359904"
   },
   {
     "id": "creative-writing-death-dying",
