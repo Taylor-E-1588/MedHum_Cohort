@@ -48,8 +48,7 @@ window.COURSES = [
     "integrations": [
       "Historical Perspectives"
     ],
-    "syllabus": null,
-    "term": "Fall 2026"
+    "syllabus": null
   },
   {
     "id": "womens-health-information-social-media",
@@ -93,7 +92,7 @@ window.COURSES = [
     "department": "Sociology and Anthropology",
     "commitment": "confirmed",
     "description": "Examines social causation of disease, medicalization, health disparities, healthcare institutions, and the ways health is shaped by social context and personal biography.",
-    "term": "Fall",
+    "term": "Fall; Winter 2027",
     "frequency": "Every other year",
     "capacity": "16",
     "pilot": "Winter 2027 pilot",
@@ -167,7 +166,7 @@ window.COURSES = [
   {
     "id": "pregnancy-childbirth-health",
     "title": "Pregnancy, Childbirth, and Health",
-    "number": "WGSS 2905",
+    "number": "WGSS 2906",
     "previousTitle": "Reproductive Justice: Beyond Abortion",
     "formerNumber": "WGSS 296A",
     "faculty": "Wenqi Yang",
@@ -289,7 +288,8 @@ window.COURSES = [
     "integrations": [
       "Historical Perspectives"
     ],
-    "syllabus": null
+    "syllabus": null,
+    "frequency": "Every other year"
   },
   {
     "id": "surrealism",
@@ -305,7 +305,8 @@ window.COURSES = [
     "integrations": [
       "Historical Perspectives"
     ],
-    "syllabus": null
+    "syllabus": null,
+    "term": "Winter 2027"
   },
   {
     "id": "medical-ethics",
@@ -352,7 +353,9 @@ window.COURSES = [
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [],
-    "syllabus": null
+    "syllabus": null,
+    "term": "Spring; taught Spring 2024, Spring 2025, and Spring 2026",
+    "frequency": "Every year"
   },
   {
     "id": "spanish-healthcare-professionals",
@@ -421,12 +424,12 @@ window.COURSES = [
   {
     "id": "sociology-aging",
     "title": "Sociology of Aging",
-    "number": "SOAN xxxx",
+    "number": "SOAN 2315",
     "faculty": "John Cataldi",
     "department": "Sociology and Anthropology",
     "commitment": "confirmed",
     "description": "A new course on aging that connects social structures and lived experience with health, care, disability, and the life course.",
-    "term": "Winter",
+    "term": "Winter 2027",
     "fys": false,
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [],
@@ -453,7 +456,8 @@ window.COURSES = [
     "syllabus": "https://wlu.app.box.com/file/2487616531124",
     "term": "Fall 2026",
     "pilot": "Fall 2026 pre-pilot",
-    "cbl": true
+    "cbl": true,
+    "frequency": "Every year"
   },
   {
     "id": "history-of-medicine",
