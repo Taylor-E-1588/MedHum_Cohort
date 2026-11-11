@@ -48,7 +48,8 @@ window.COURSES = [
     "integrations": [
       "Historical Perspectives"
     ],
-    "syllabus": null
+    "syllabus": null,
+    "term": "Fall 2026"
   },
   {
     "id": "womens-health-information-social-media",
@@ -166,7 +167,7 @@ window.COURSES = [
   {
     "id": "pregnancy-childbirth-health",
     "title": "Pregnancy, Childbirth, and Health",
-    "number": "WGSS 2906",
+    "number": "WGSS 2905",
     "previousTitle": "Reproductive Justice: Beyond Abortion",
     "formerNumber": "WGSS 296A",
     "faculty": "Wenqi Yang",
@@ -354,8 +355,9 @@ window.COURSES = [
     "mode": "Social Scientific Inquiry and Analysis",
     "integrations": [],
     "syllabus": null,
-    "term": "Spring; taught Spring 2024, Spring 2025, and Spring 2026",
-    "frequency": "Every year"
+    "term": "Spring 2026",
+    "frequency": "Every year",
+    "credits": 3
   },
   {
     "id": "spanish-healthcare-professionals",
